@@ -12,7 +12,7 @@
 
 ---
 
-![Untitled.gif](r r r)
+![分类菜单演示.gif](https://upload-images.jianshu.io/upload_images/668798-05074bd79b13b09e.gif?imageMogr2/auto-orient/strip)
 
 ---
 
