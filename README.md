@@ -1,14 +1,14 @@
 # ClassifyMenuDemo
-# 多级分类菜单 多集列表展开合并 类似口碑全部分类效果
+# 多级分类菜单 多集列表展开合并 仿口碑分类效果
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 ![](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)
 ![](https://img.shields.io/vscode-marketplace/d/repo.svg)
 ![](https://img.shields.io/cocoapods/l/packageName.svg)
 
-# GHDropMenu 简单使用 无入侵 对原项目无污染
+# ClassifyMenuDemo 简单使用 无入侵 对原项目无污染
 
-`分类菜单` `筛选菜单` `口碑分类筛选菜单` `电商通用筛选菜单`
+`分类菜单` `筛选菜单` `口碑分类筛选菜单` `电商通用筛选菜单` `多级列表`
 
 ---
 
@@ -21,7 +21,7 @@
 - (void)clickTitleBtn:(UIButton *)sender {
     if (self.isShowMenu == NO) {
         WEAKSELF
-        self.rootNode = [self doConfigNodes];
+        self.rootNode = [self doConfigNodes]; // 整理数据
         self.menu = [[ClassifyMenu alloc] initWithFrame:CGRectZero rootNode:self.rootNode chooseResult:^(CMNode *node) {
             weakSelf.isShowMenu = NO;
             NSString *result = @"";
@@ -50,7 +50,11 @@
     }
 }
 
-#pragma mark - 数据源及UI界面
+````
+
+# 数据整理成CMNode类集合 按照层次
+````
+#pragma mark - 数据格式源整理
 - (CMNode *)doConfigNodes {
     NSDictionary *item1 = @{@"name":@"一级分类1", @"arr":@[@{@"name":@"二级分类1", @"arr":@[@{@"name":@"三级分类11"}, @{@"name":@"三级分类22"}, @{@"name":@"三级分类33"}, @{@"name":@"三级分类44"}, @{@"name":@"三级分类55"}]},
                                                        @{@"name":@"二级分类2", @"arr":@[@{@"name":@"游泳馆1"}, @{@"name":@"游泳馆2"}, @{@"name":@"游泳馆3"}, @{@"name":@"游泳馆4"}, @{@"name":@"游泳馆5"}]},
@@ -137,3 +141,6 @@
     return rootNode;
 }
 ````
+
+### 如有更好的建议欢迎加Q吐槽：1131991303
+### 博客地址：[ClassifyMenuDemo简书](https://github.com/lypcliuli/OCInteractionJS.git)
