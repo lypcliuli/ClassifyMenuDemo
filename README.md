@@ -12,7 +12,7 @@
 
 ---
 
-![分类菜单演示.gif](https://upload-images.jianshu.io/upload_images/668798-05074bd79b13b09e.gif?imageMogr2/auto-orient/strip)
+![分类菜单演示.gif](https://upload-images.jianshu.io/upload_images/668798-716adaec035f6575.gif?imageMogr2/auto-orient/strip)
 
 ---
 
