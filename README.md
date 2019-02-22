@@ -12,7 +12,7 @@
 
 ---
 
-![Untitled.gif](https://upload-images.jianshu.io/upload_images/1419035-55dd0f6eafb19fd7.gif?imageMogr2/auto-orient/strip)
+![Untitled.gif](r r r)
 
 ---
 
