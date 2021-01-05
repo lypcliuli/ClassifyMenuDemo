@@ -143,4 +143,4 @@
 ````
 
 ### 如有更好的建议欢迎加Q吐槽：1131991303
-### 博客地址：[ClassifyMenuDemo简书](https://github.com/lypcliuli/OCInteractionJS.git)
+### 博客地址：[ClassifyMenuDemo简书](https://www.jianshu.com/p/f67b18b08b36)
